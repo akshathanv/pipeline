@@ -1,5 +1,5 @@
-#!groovy
-stage('VCS'){
+
+stage('SVN'){
     node{
         echo hi
     }
