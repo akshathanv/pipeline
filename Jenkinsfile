@@ -1,23 +1,23 @@
 
 stage('SVN'){
     node{
-        echo hi
+        echo 'hi'
     }
 }
 stage('Build'){
     node{
-        echo hi
+        echo 'ola'
     }
 }
 
 stage('Deploy'){
     node{
-        echo hi
+        echo 'hello'
     }
 }
-stage('Teting'){
+stage('Testing'){
     node{
-        echo hi
+        echo 'hey'
     }
 }
 
